@@ -1,0 +1,35 @@
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#board {
+  display: grid;
+  margin: 40px;
+
+}
+
+.square {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid;
+  border-color: "black";
+  box-sizing: border-box;
+}
+#flagNumber{
+  font-size: x-large;
+}
+
+.span{
+  text-align: center;
+}
+#instruction{
+  color: grey;
+  font-size: x-small;
+  position: absolute;
+  bottom: 5%;
+}
